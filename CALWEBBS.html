@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>CALCUWEB - Portfolio</title>
+    <meta name="description" content="Modern Portfolio Design">
+    <!-- FAVICON: Change this to your icon file (favicon.ico, favicon.png, etc.) -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="swag.css">
+</head>
+
+<body>
+    <!-- Top Header -->
+    <header class="header">
+        <a href="#home">
+            <!-- LOGO: Change the src path to your logo image -->
+            <img class="logo" width="70" height="69"
+                src="/Users/stenyjoseph/Library/Mobile Documents/com~apple~CloudDocs/WEBBY/PICS/golden bull.png" alt="Logo">
+        </a>
+        <nav class="desktop-nav">
+            <ul class="navd_links">
+                <li><a href="#home" class="nav-link" data-section="home">HOME</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li><a href="work.html" class="nav-link">WORK</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#contact"><button class="contact-btn">CONTACT</button></a>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <h1 class="hero-title fade-in">Welcome to<br>My Portfolio</h1>
+                <p class="hero-subtitle fade-in-delay">Student-Athlete | Creative Designer & Developer</p>
+                <p class="hero-bio fade-in-delay-2">
+                    I am a student-athlete who has learned that growth happens far beyond the scoreboard. While competing at a high level, I've been blessed with opportunities to express my creativity and leadership through graphic design, videography, and athletic operations. My work has been featured by the CIAA, HBCU Gameday, and the Florida Beach Bowl.
+                </p>
+                <div class="hero-cta fade-in-delay-3">
+                    <a href="work.html" class="btn-primary">View Work</a>
+                    <a href="about.html" class="btn-primary btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title slide-up">About Me</h2>
+                <div class="about-content slide-up-delay">
+                    <p class="about-text">
+                        I'm a passionate designer and developer focused on creating
+                        beautiful, functional experiences that make a difference.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-item">Design</div>
+                        <div class="skill-item">Development</div>
+                        <div class="skill-item">Innovation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title slide-up">Get In Touch</h2>
+                <div class="contact-content slide-up-delay">
+                    <p class="contact-text">Let's work together on your next project.</p>
+                    <a href="mailto:contact@example.com" class="btn-primary">Send Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bottom Navigation Bar (Mobile) -->
+    <nav class="bottom-nav">
+        <!-- NAVIGATION ICONS: Change the emoji icons (🏠👤💼✉️) to your preferred icons -->
+        <a href="#home" class="nav-item active" data-section="home">
+            <span class="nav-icon"></span>
+            <span class="nav-label">Home</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <span class="nav-icon"></span>
+            <span class="nav-label">About</span>
+        </a>
+        <a href="work.html" class="nav-item">
+            <span class="nav-icon"></span>
+            <span class="nav-label">Work</span>
+        </a>
+        <a href="#contact" class="nav-item" data-section="contact">
+            <span class="nav-icon"></span>
+            <span class="nav-label">Contact</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
